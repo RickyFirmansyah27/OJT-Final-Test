@@ -1,0 +1,51 @@
+###
+POST  http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Azema",
+    "email": "Azema@gmail.com",
+    "gender": "Male",
+    "password": "user123",
+    "confPassword": "user123",
+    "role": "user"
+}
+
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "Ricky@gmail.com",
+    "password": "Ricky123"
+}
+
+###
+PATCH  http://localhost:5000/gaji/1
+Content-Type: application/json
+
+{
+    "claimbiaya": 10000
+}
+
+###
+GET http://localhost:5000/overtimeCheck/Pending
+
+###
+DELETE http://localhost:5000/logout
+
+
+###
+POST http://localhost:5000/reimburst-approve
+Content-Type: application/json
+
+{
+    "email" : "aicorex4@gmail.com",
+    "name"  : "Tester"
+}
+
+
+
+//Add information via excel
+//Add NodeScheduler
