@@ -1,2 +1,2 @@
 # OJT-Final-Test
-MiniApp Final Test OJT = DAnS Multi Pro
+MiniApp Final Test OJT - DAnS Multi Pro
